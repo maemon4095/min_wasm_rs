@@ -14,5 +14,4 @@ extern "C" {
 #[wasm_bindgen]
 pub fn greet() {
     let a = A { x: 1, y: 2 };
-    alert(&format!("Hello, {:?}", a));
 }

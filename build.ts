@@ -5,6 +5,7 @@ const mode = Deno.args[0];
 const wasmPack = new Deno.Command("wasm-pack", {
     args: [
         "build",
+        "--dev",
         "--target",
         "web",
         "--mode",

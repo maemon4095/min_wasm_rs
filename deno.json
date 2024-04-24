@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "build": "deno run -A build.ts build"
+    "build": "deno run -A build.ts build",
+    "serve": "deno run -A build.ts serve"
   },
   "imports": {
     "@types/file": "https://raw.githubusercontent.com/maemon4095/deno-esbuilder/release/v0.2.1/plugins/loaderOverride/types/file.d.ts"
